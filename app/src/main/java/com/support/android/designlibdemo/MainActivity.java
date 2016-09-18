@@ -160,6 +160,9 @@ public class MainActivity extends AppCompatActivity {
                         if (menuItem.getItemId() == R.id.nav_messages) {
                             testIntent(ViewPagerTest.class);
                         }
+                        if (menuItem.getItemId() == R.id.nav_home) {
+                            testIntent(CheeseFragmentActivity.class);
+                        }
                         return true;
                     }
                 });

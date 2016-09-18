@@ -42,6 +42,9 @@
         <activity
             android:name=".ViewPagerTest"
             android:theme="@style/Theme.Sp" />
+        <activity
+            android:name=".CheeseFragmentActivity"
+            android:theme="@style/Theme.Sp" />
     </application>
 
 </manifest>

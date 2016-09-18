@@ -22,4 +22,12 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="Theme.Sp" parent="Base.Theme.DesignDemo">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
 </resources>

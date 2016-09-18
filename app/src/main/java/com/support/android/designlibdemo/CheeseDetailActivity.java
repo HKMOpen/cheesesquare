@@ -45,8 +45,7 @@ public class CheeseDetailActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitle(cheeseName);
 
         loadBackdrop();
@@ -62,4 +61,6 @@ public class CheeseDetailActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.sample_actions, menu);
         return true;
     }
+
+
 }

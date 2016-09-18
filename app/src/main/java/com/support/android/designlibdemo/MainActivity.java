@@ -16,6 +16,7 @@
 
 package com.support.android.designlibdemo;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -152,13 +153,21 @@ public class MainActivity extends AppCompatActivity {
     private void setupDrawerContent(NavigationView navigationView) {
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(MenuItem menuItem) {
-                menuItem.setChecked(true);
-                mDrawerLayout.closeDrawers();
-                return true;
-            }
-        });
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        menuItem.setChecked(true);
+                        mDrawerLayout.closeDrawers();
+                        if (menuItem.getItemId() == R.id.nav_messages) {
+                            testIntent(ViewPagerTest.class);
+                        }
+                        return true;
+                    }
+                });
+    }
+
+    private void testIntent(Class<?> clazz) {
+        Intent i = new Intent(getApplicationContext(), clazz);
+        startActivity(i);
     }
 
     static class Adapter extends FragmentPagerAdapter {

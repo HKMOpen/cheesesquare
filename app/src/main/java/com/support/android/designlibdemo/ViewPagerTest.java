@@ -25,7 +25,7 @@ public class ViewPagerTest extends AppCompatActivity {
         // collapsingToolbar.setTitle("test");
         // loadBackdrop();
         // toolbar.addView(new View(getApplicationContext()));
-        // toolbar.setBackgroundResource(R.drawable.ic_forum);
+        toolbar.setBackgroundResource(R.drawable.ic_forum);
         viewpagersetup();
     }
 

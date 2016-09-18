@@ -22,28 +22,9 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
-<<<<<<< HEAD
-            app:expandedTitleMarginEnd="64dp"
-            app:expandedTitleMarginStart="48dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:statusBarScrim="@android:color/transparent">
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:fitsSystemWindows="true"
-                app:layout_collapseMode="parallax"
-                app:layout_collapseParallaxMultiplier="0.5">
-
-                <ImageView
-                    android:id="@+id/backdrop"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scaleType="centerCrop" />
-            </RelativeLayout>
-=======
-            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
-            app:statusBarScrim="@android:color/transparent">
 
             <ImageView
                 android:id="@+id/backdrop"
@@ -53,7 +34,7 @@
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax" />
->>>>>>> viewpagerdev
+
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/the_toolbar"
@@ -73,11 +54,8 @@
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-<<<<<<< HEAD
         android:clipToPadding="false"
         android:fillViewport="true"
-=======
->>>>>>> viewpagerdev
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
@@ -105,10 +83,7 @@
 
             <include layout="@layout/nav_header" />
 
-<<<<<<< HEAD
-=======
 
->>>>>>> viewpagerdev
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

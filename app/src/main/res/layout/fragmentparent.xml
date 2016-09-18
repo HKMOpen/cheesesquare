@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-=======
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
->>>>>>> viewpagerdev
+
     <FrameLayout
         android:id="@+id/frame_ls_fmc"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-<<<<<<< HEAD
-=======
 
-
->>>>>>> viewpagerdev
 </android.support.design.widget.CoordinatorLayout>

@@ -32,7 +32,7 @@
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"
                 app:contentInsetEnd="0dp"
-                app:contentInsetLeft="0dp"
+                app:contentInsetLeft="0dp"      
                 app:contentInsetRight="0dp"
                 app:contentInsetStart="0dp"
                 app:expandedTitleMarginEnd="64dp"
